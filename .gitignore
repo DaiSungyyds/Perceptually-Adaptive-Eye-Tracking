@@ -1,6 +1,50 @@
-eye_data
-eye_data/*
-./eye_data/
-./eye_data/*
-./ebv-eye/*
-ebv-eye
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+eye_data/
+data/*.json
+experiments/
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+logs/
