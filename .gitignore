@@ -1,3 +1,25 @@
+# Model weights and checkpoints
+*.ckpt
+*.pt
+checkpoint*.pth
+# Allow best model to be uploaded
+!best_model_gpu3_optloader.pth
+
+# Data files
+*.pkl
+*.h5
+*.hdf5
+data/
+cache/
+dataset/
+*_cache/
+
+# Logs
+*.log
+logs/
+runs/
+wandb/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -20,31 +42,32 @@ wheels/
 .installed.cfg
 *.egg
 
-# PyTorch
-*.pth
-*.pt
-
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# IDEs
-.vscode/
+# PyCharm
 .idea/
-*.swp
-*.swo
-*~
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+venv/
+env/
+ENV/
+
+# SSH keys
+ssh_key
+*.pem
+*.key
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Data
-eye_data/
-data/*.json
-experiments/
-*.tar.gz
-*.zip
-
-# Logs
-*.log
-logs/
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
